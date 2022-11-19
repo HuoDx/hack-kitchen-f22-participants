@@ -1,11 +1,11 @@
 import React from "react";
 
-import img from "../img/fanart30.jpeg";
+import img from "../img/fanart3.jpeg";
 
 export default function Awards() {
     return (
-        <>
-            <h1>Awards</h2>
+        <div>
+            <h1>Awards</h1>
             <ul>
                 <li>
                     restaurant gordodn ramsay in london voted top restraurtn uk and has 3 michele stars
@@ -21,11 +21,11 @@ export default function Awards() {
                 </li>
                 <li>
                     guiness wrold record for longest pasta sheet roleld in 60 seconds 1.45 mieteres wth is a meter
-                </ul>
+                </li>
                 <li>
                     100 most powerful people
                 </li>
             </ul>
-        </>
+        </div>
     );
 };
